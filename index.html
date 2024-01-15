@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2 Execise</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/325b5f103a.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <!-- Nav tags starts here -->
-<nav>
-    <h1 class="web-name">Best Travel Bd</h1>
+<nav class="nav-bar hide">
+    <div class="web-name-container">
+        <img src="Images/Group 40071 (2).png" alt="" class="logo-img">
+        <h1 class="web-name">Best <span class="travel-text">Travels</span></h1>
+    </div>
 
-    <ul>
-        <li><a href="">Home</a></li>
+    <ul class="nav-manu">
+        <li><a href=""><span class="home-text">Home</span></a></li>
         <li><a href="">Packages</a></li>
         <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
@@ -23,42 +27,54 @@
 <!-- Nav tags closes here -->
 
 <!-- Header tags starts here -->
-<header>
+<header class="hide">
     <div class="banner-container">
         <div class="banner-img">
-            <h1 class="banner-title">Explore Your Travel</h1>
-            <p class="banner-content">Select a popular travel destination below to discover exclusive trips backed by our low price guarantee.</p>
-            <div class="select-section">
-                <button class="where-go-btn">Where go</button>
-                <button class="when-btn">When</button>
-                <button class="select-btn">Select Type</button>
-                <button class="find-btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            <div class="banner-gredient">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="banner-content">Welcome to "Best Travels". Select a popular travel destination below to discover exclusive trips backed by our low price guarantee. I'm sure you will love it.</p>
+                <div class="select-section">
+                    <div class="select-input">
+                        <input type="text" placeholder="Where go">
+                    </div>
+                    <div class="select-input">
+                        <input type="text" placeholder="When">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="select-input">
+                        <input type="text" placeholder="Select Type">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <button class="find-btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                </div>
             </div>
         </div>
     </div>
 </header>
 <!-- Header tags closes here -->
-    <div class="popular-tour-container">
+    <div class="popular-tour-container hide">
         <div class="popular-tour-contents">
-            <h3 class="popular-tour-title">Our Popular Tours</h3>
-            <p class="popular-tour-text">
+            <h3 class="popular-tour-title primary-headings">Our Popular Tours</h3>
+            <p class="popular-tour-text primary-content">
                 There is some best place to travel. The itineraries in this travel collection are chosen time and time again—and lets explore why.
             </p>
-            <ul>
+            <ul class="primary-content">
                 <li>Maldives: Maldives Country in South Asia. Its known for its beaches, blue lagoons and extensive reefs.</li>
 
-                <li>Kashmir: Kashmir is often referred to as "Paradise on Earth" for its breathtaking natural beauty Nestled in India. </li>
+                <li class="kashmir-tour">Kashmir: Kashmir is often referred to as "Paradise on Earth" for its breathtaking natural beauty Nestled in India. </li>
 
                 <li>Bandarban: Bandarban is popular for its breathtaking view of the Arakan range and the mountain clouds.</li>
             </ul>
-            <p class="popular-tour-details">The tours featured throughout our website are intended to give you ideas for what's possible when you travel with us.</p>
-            <button class="read-more-btn">Read More</button>
+            <p class="popular-tour-details primary-content">The tours featured throughout our website are intended to give you ideas for what's possible when you travel with us. So let have a great tour with us. We are waiting for you. There are more much popular tours we goes monthly. Hope you like to read. </p>
+            <button class="read-more-btn primary-btn">Read More</button>
         </div>
         <div class="popular-tour-img">
-            <img src="" alt="">
+            <div class="popular-gredient">
+                <img src="Images/Rectangle 4.png" alt="">
+            </div>
         </div>
     </div>
-    <div class="choose-container">
+    <div class="choose-container hide">
         <h1 class="choose-title">Choose Your Destination</h1>
         <p class="choose-content">
             Here are some best traveling places to help you choose and discover how beautiful the places are. 
