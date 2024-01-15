@@ -228,3 +228,206 @@ body {
    border-radius: 16px;
    background: lightgray 50% / cover no-repeat;
 }
+
+/* Choose Your Destination styles */
+
+.choose-container {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.choose-content {
+   width: 643px;
+   margin: auto;
+   margin-top: 24px;
+   margin-bottom: 48px;
+}
+
+.places-img-container p {
+   color: #FFF;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 800;
+   position: relative;
+   top: -50%;
+}
+
+.line-1 {
+   height: 300px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+}
+
+.line-2 {
+   height: 300px;
+   display: grid;
+   grid-template-columns: 374px 474px 274px;
+   gap: 24px;
+   margin-top: 24px;
+}
+
+.line-3 {
+   display: flex;
+   gap: 24px;
+}
+
+.maldives-img {
+   border-radius: 16px;
+   background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
+}
+
+
+/* Why Choose us styles */
+
+.box-1-2 {
+   display: flex;
+   gap: 24px;
+}
+
+.box-1 {
+   width: 573px;
+   height: 284px;
+   border-radius: 16px;
+   border: 1px solid rgba(251, 181, 99, 0.20);
+   background: rgba(251, 181, 99, 0.05);
+}
+
+.box-2 {
+   width: 573px;
+   height: 284px;
+   border-radius: 16px;
+   border-radius: 16px;
+   border: 1px solid rgba(41, 206, 246, 0.20);
+   background: rgba(41, 206, 246, 0.05);
+}
+
+.box-3 {
+   width: 573px;
+   height: 284px;
+   border-radius: 16px;
+   border-radius: 16px;
+   border: 1px solid rgba(233, 68, 68, 0.20);
+   background: rgba(233, 68, 68, 0.05);
+   margin: auto;
+   margin-top: 24px;
+}
+
+.boxs-container img {
+   padding: 32px;
+}
+
+.boxs-container h1 {
+   color: #131318;
+   font-size: 24px;
+   font-weight: 800;
+   margin: 0 32px;
+   padding-bottom: 16px;
+}
+
+.boxs-container p {
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-left: 32px;
+   width: 486px;
+}
+
+/* Deals & Discount styles */
+
+.deal-container {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.deal-container p {
+   margin-top: 24px;
+   margin-bottom: 48px;
+}
+
+.deals-1 {
+   background-image: url('Images/Deals\ 1.png');
+   width: 1170px;
+   height: 500px;
+}
+
+.deals-2 {
+   background-image: url('Images/Deals\ 2.png');
+   width: 1170px;
+   height: 500px;
+   margin: 24px 0;
+}
+
+.deals-1-box {
+   width: 579px;
+   height: 389px;
+   border-radius: 16px;
+   border: 2px solid #FFF;
+   background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   position: relative;
+   left: 45%;
+   top: 10%;
+}
+
+.deals-2-box {
+   width: 579px;
+   height: 389px;
+   border-radius: 16px;
+   border: 2px solid #FFF;
+   background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   position: relative;
+   left: 5%;
+   top: 10%;
+}
+
+.deals-details {
+   display: flex;
+   margin-left: 43px;
+   margin-top: 53px;
+}
+
+.deals-details img {
+   margin-left: 35px;
+   margin-right: 8px;
+}
+
+.deals-details p {
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 3px;
+}
+
+.deals-title {
+   color: #131318;
+   font-size: 24px;
+   font-weight: 800;
+   margin-left: 78px;
+   margin-top: 26px;
+}
+
+.deals-content {
+   width: 452px;
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-left: 62px;
+   padding: 16px;
+}
+
+.price-text {
+   color: #FF5400;
+   font-size: 20px;
+   font-weight: 800;
+   margin-left: 78px;
+   margin-bottom: 24px;
+}
+
+.book-now-btn{
+   margin-left: 78px;
+   padding: 13px 24px;
+}
