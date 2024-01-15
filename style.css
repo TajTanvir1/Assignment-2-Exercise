@@ -44,6 +44,11 @@ body {
    border: none;
 }
 
+.primary-btn:hover {
+   border: #e65005 2px solid;
+   cursor: pointer;
+}
+
 /* Nav section styles */
 
 .nav-bar {
@@ -427,7 +432,66 @@ body {
    margin-bottom: 24px;
 }
 
-.book-now-btn{
+.book-now-btn {
    margin-left: 78px;
    padding: 13px 24px;
 }
+
+.see-all {
+   text-align: center;
+   margin-top: 48px;
+   margin-bottom: 100px;
+}
+
+.see-all-btn {}
+
+
+/* Parfect Place section style */
+
+.perfect-place-container {
+   display: flex;
+   gap: 28px;
+}
+
+.perfect-place-content {
+   width: 532px;
+   margin: 24px 0;
+}
+
+.perfect-place-content li {
+   color: #131318;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 26px;
+}
+
+.content-ul {
+   padding-left: 20px;
+}
+
+.content-li-2 {
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.see-more {
+   padding: 14px 42px;
+}
+
+.perfect-place-img {
+   border-radius: 16px;
+   background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.perfect-place-img-text {
+   color: #FFF;
+   width: 276px;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 36px;
+   position: relative;
+   top: -50%;
+   left: 30%;
+}
+
