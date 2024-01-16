@@ -266,7 +266,7 @@ main {
 }
 
 .places-img-container p {
-   color: #FFF;
+   color: #ffffff;
    text-align: center;
    font-size: 28px;
    font-weight: 800;
@@ -460,10 +460,7 @@ main {
    margin-bottom: 100px;
 }
 
-.see-all-btn {}
-
-
-/* Parfect Place section style */
+/* Perfect Place section style */
 
 .perfect-place-container {
    display: flex;
@@ -501,7 +498,7 @@ main {
 }
 
 .perfect-place-img-text {
-   color: #FFF;
+   color: #ffffff;
    width: 276px;
    text-align: center;
    font-size: 24px;
@@ -622,24 +619,22 @@ footer {
    height: 502px;
    flex-shrink: 0;
    background: rgba(19, 19, 24, 0.05);
-   padding: 110px 0 0 0;
+   /* padding: 110px 0 0 0; */
 }
 
 .footer-web-name-container {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 110px 0 0 0;
 }
 
-.footer-contents{
-   width: 750px;
-   margin: auto;
-}
 
-.footer-content {
+.footer-text {
    text-align: center;
-   margin-top: 15px;
-   margin-bottom: 33px;
+   width: 500px;
+   margin: auto;
+   padding: 15px 0 33px 0;
 }
 
 .social-media {
