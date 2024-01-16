@@ -123,6 +123,14 @@ main {
    text-decoration: none
 }
 
+.menu-icon{
+   display: none;
+}
+
+.checkbox{
+   display: none;
+}
+
 /* Header styles */
 
 .banner-container {
@@ -609,6 +617,71 @@ hr {
    font-size: 32px;
    font-weight: 800;
    text-align: center;
+}
+
+/* Special Tours styles */
+
+.special-tour-contents{
+   text-align: center;
+}
+
+.special-title{
+   color: #131318;
+   font-size: 24px;
+   font-weight: 800;
+   margin: 30px 0 30px 0;
+}
+
+.special-text{
+   width: 500px;
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin: auto;
+   padding-bottom: 24px;
+}
+
+.special-img-container{
+   width: 100%;
+   max-width: 1440px;
+   height: 400px;
+   display: flex;
+   gap: 10px;
+}
+
+.special-img1{
+   width: 100%;
+   max-width: 400px;
+   height: 100%;
+   border-radius: 16px;
+}
+
+.special-img2{
+   width: 100%;
+   max-width: 400px;
+   height: 100%;  
+   border-radius: 16px;
+}
+
+.special-img-container img{
+   border-radius: 16px;
+   background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+   border: 4px solid white;
+}
+
+.special-img-container img:hover{
+border: 4px solid #888775;
+}
+
+.special-img-container h3{
+   text-align: center;
+   color: #ffffff;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 800;
+   position: relative;
+   top: -20%;
 }
 
 /* Footer styles */

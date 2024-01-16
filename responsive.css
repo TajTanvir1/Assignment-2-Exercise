@@ -1,4 +1,4 @@
-/* Responsive  for 600pxx Devices */
+/* Responsive  for 600px Devices */
 
 @media screen and (max-width: 601px) {
    /* Common styles */
@@ -23,6 +23,20 @@
 
    .nav-manu {
       display: none;
+   }
+
+   .menu-icon{
+      display: inline;
+   }
+
+   .checkbox{
+      display: none;
+      position: relative;
+      right: -120px;
+   }
+
+   .menu-icon:hover{
+      display: block;
    }
 
    /* Banner styles */
@@ -229,6 +243,17 @@
    position: relative;
    top: -180px;
    left: 250px;
+}
+
+/* Special Tour styles */
+.special-img-container{
+   flex-direction: column;
+   height: auto;
+   align-items: center;
+}
+.special-img-container h3{
+   position: relative;
+   top: -100px;
 }
 
 /* Footer styles */
